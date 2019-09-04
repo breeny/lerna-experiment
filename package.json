@@ -2,10 +2,15 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "adm-zip": "^0.4.13",
     "aws-sdk-mock": "^4.5.0",
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "rimraf": "^3.0.0"
   },
   "dependencies": {
     "aws-sdk": "^2.522.0"
+  },
+  "scripts": {
+    "prepack": "npx lerna exec -- \\$LERNA_ROOT_PATH/scripts/archive.js"
   }
 }
