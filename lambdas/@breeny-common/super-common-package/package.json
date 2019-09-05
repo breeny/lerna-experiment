@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
   "author": "Andrew Breen <Andrew.Breen@mi9.com.au>",
   "license": "ISC",
   "homepage": "https://github.com/breeny/lerna-experiment#readme",
@@ -26,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/breeny/lerna-experiment/issues"
-  }
+  },
+  "gitHead": "23bc402e244a8946debb965e961985a18d380d6c"
 }
